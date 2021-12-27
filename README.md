@@ -30,8 +30,8 @@ Here we use LUNG1 data as an example. This is a public dataset available on The 
 
 
 ```python
-dicom_path = "./LUNG1/LUNG1-001/09-18-2008-StudyID-69331/0.000000-82046/"
-seg_path = "./LUNG1/LUNG1-001/02-25-2019-CTLUNG-69331/300.000000-Segmentation-64821/1-1.dcm"
+dicom_path = "./LUNG1/LUNG1-100/03-04-2006-StudyID-79317/0.000000-95207/"
+seg_path = "./LUNG1/LUNG1-100/02-26-2019-CTLUNG-79317/300.000000-Segmentation-44198/1-1.dcm"
 image = ITHscore.load_image(dicom_path)
 seg = ITHscore.load_seg(seg_path)
 print(image.shape, seg.shape)
