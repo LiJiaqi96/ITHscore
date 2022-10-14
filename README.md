@@ -2,7 +2,9 @@
 
 ITHscore is a Python package to quantify intra-tumor heterogeneity level from CT images. ITHscore contains general data processing of medical images, so it can be used as a radiomic analysis pipeline.
 
-ITHscore is designed and developed by Jiaqi Li from [XGlab](http://bioinfo.au.tsinghua.edu.cn/member/xuegonglab/ ), Tsinghua University. The work is collaborated with Prof. Wenzhao Zhong's group, Guangdong General Hospital.
+ITHscore is designed and developed by Jiaqi Li from [XGlab](http://bioinfo.au.tsinghua.edu.cn/member/xuegonglab/ ), Tsinghua University. The work is collaborated with Prof. Wenzhao Zhong's group, Guangdong General Hospital. The package is freely for academic use. Please cite our paper published on *European Radiology* if you use this package for your work:  
+
+Li et al., ITHscore: comprehensive quantification of intra-tumor heterogeneity in NSCLC by multi-scale radiomic features, *European Radiology*, 2022.  
 
 ## Install
 
